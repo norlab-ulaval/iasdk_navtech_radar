@@ -1,0 +1,8 @@
+[Unit]
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/run_gps_conversion_tool.sh
+
+[Install]
+WantedBy=default.target

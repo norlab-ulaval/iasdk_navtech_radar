@@ -1,0 +1,26 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~Phi" : \b [double] 3D angle min: 0.0, default: 0.0, max: 360.0
+- \b "~ThreeDScanApp" : \b [bool] Publish 3dpcl min: False, default: False, max: True
+- \b "~maxangle" : \b [int] max angle for radar min: 0, default: 69, max: 180
+- \b "~LaserScan2_Map" : \b [bool] Publish Laser scan min: False, default: False, max: True
+- \b "~radarimage" : \b [bool] Enable radarimage min: False, default: False, max: True
+- \b "~radarimageprocessing" : \b [bool] Enable radarimage processing min: False, default: False, max: True
+- \b "~threshold_value" : \b [int] Threshold parameter1 min: 0, default: 62, max: 255
+- \b "~pointcloud" : \b [bool] Enable pointcloud postprocessing min: False, default: False, max: True
+- \b "~pcl_threshold_value" : \b [int] pcl Threshold parameter1 min: 0, default: 62, max: 255
+- \b "~boundingboxes2" : \b [bool] Enable bounding boxes 2 postprocessing min: False, default: False, max: True
+- \b "~MinAreaRect" : \b [bool] Highlight Objects with Min Area Rectangles min: False, default: False, max: True
+- \b "~longtermaverage" : \b [bool] static radar for long term averaging min: False, default: False, max: True
+- \b "~dilation_value" : \b [int] dilation_value min: 0, default: 2, max: 20
+- \b "~gaussian_value" : \b [int] gaussian_value min: 0, default: 5, max: 15
+- \b "~adaptive_threshold" : \b [bool] Enable adaptive thresholding min: False, default: False, max: True
+- \b "~level_above_average" : \b [int] Level above the average to determine point min: 0, default: 52, max: 100
+- \b "~adaptive_size" : \b [int] size of calculated mean search area min: 0, default: 5, max: 15
+- \b "~grid" : \b [bool] Enable grid min: False, default: False, max: True
+- \b "~grid_stepSize" : \b [int] grid step size min: 0, default: 10, max: 1000
+- \b "~grid_opacity" : \b [double] grid opacity min: 0.0, default: 0.5, max: 1.0
+- \b "~colormap" : \b [int] colormap profile min: 0, default: 10, max: 10
+

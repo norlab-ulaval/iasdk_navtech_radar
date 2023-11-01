@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/connection_tester.dir/connection_tester.cpp.o -o bin/connection_tester  utility/libutility.a protobuf/libprotobuf.a network/libnetworking.a navigation/libnavigation.a network/libnetworking.a navigation/libnavigation.a utility/libutility.a protobuf/libprotobuf.a /usr/lib/x86_64-linux-gnu/libprotobuf.a 

@@ -1,0 +1,15 @@
+syntax = "proto2";
+package Colossus.Protobuf;
+
+import "radarmodel.proto";
+
+message Discovery {
+  optional RadarModel model = 1;
+  optional int32 maxclientsallowed = 2;
+  repeated string ipclients = 3;
+  optional RadarFeatureFlag radarfeatures = 4;
+  optional int32 StaringMode = 5;
+  optional int32 TransmitterEnabled = 6;
+  optional float RangeResolutionMetres = 7;
+  optional string onboardmacaddress = 8;
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnavigation.a CMakeFiles/navigation.dir/Peak_finder.cpp.o CMakeFiles/navigation.dir/Sector_blanking.cpp.o
+/usr/bin/ranlib libnavigation.a

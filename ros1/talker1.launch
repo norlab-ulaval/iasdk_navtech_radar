@@ -1,0 +1,4 @@
+<launch>
+<param name="/talker1/param3" value="image_on" type="str" />
+<node name="talker1" pkg="nav_ross" type="talker1" output="screen"  />
+</launch>

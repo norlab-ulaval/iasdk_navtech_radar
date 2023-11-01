@@ -1,0 +1,8 @@
+ <launch>
+    <node name="rqt_gui" pkg="rqt_gui" type="rqt_gui"/>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find nav_ross)/rviz/Default_Mobile_Platform.rviz" respawn="true"/>
+    <node name="Mobile_Platform" pkg="nav_ross" type="Mobile_Platform" output="screen" required="true" />
+    <node pkg="nav_ross" type="radar_tf_broadcaster" name ="radar_tf_broadcaster"/>
+    <node pkg="nav_ross" type="radar_tf_publisher" name="radar_tf_publisher"/>
+
+  </launch>

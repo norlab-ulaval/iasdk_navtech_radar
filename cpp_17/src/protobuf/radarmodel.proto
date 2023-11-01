@@ -1,0 +1,18 @@
+syntax = "proto2";
+package Colossus.Protobuf;
+
+enum RadarFeatureFlag
+{
+  NONE = 0;
+  AUTOTUNE = 1;
+  SECONDARYPROCESSUNGMODULEPRESENT = 2;
+  NONCONTOUREDDATA = 4;
+}
+
+message RadarModel {
+  optional uint32 id = 1;
+  optional string name = 2;
+  optional string uniqueid = 3;
+  optional float rangeinmetres = 4;
+  optional string profileid = 5;
+}

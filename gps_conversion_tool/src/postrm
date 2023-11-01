@@ -1,0 +1,15 @@
+#!/bin/sh
+
+echo "Running post remove script"
+
+FILE=/usr/bin/gps_conversion_tool_log.txt
+if test -f "$FILE"; then
+    echo "Removing log file"
+    sudo rm /usr/bin/gps_conversion_tool_log.txt
+fi
+
+echo "Post remove complete"
+
+#DEBHELPER#
+
+exit 0

@@ -1,0 +1,22 @@
+/navigation_mode_point_cloud_publisher:
+  ros__parameters:
+    azimuth_offset: 0
+    bins_to_operate_on: 4
+    end_azimuth: 400
+    end_bin: 2856
+    max_peaks_per_azimuth: 10
+    min_bin: 0
+    power_threshold: 40.0
+    process_locally: true
+    qos_overrides:
+      /parameter_events:
+        publisher:
+          depth: 1000
+          durability: volatile
+          history: keep_last
+          reliability: reliable
+    radar_ip: 192.168.0.1
+    radar_port: 6317
+    start_azimuth: 0
+    start_bin: 0
+    use_sim_time: false

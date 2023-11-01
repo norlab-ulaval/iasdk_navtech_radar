@@ -1,0 +1,22 @@
+syntax = "proto2";
+package Colossus.Protobuf;
+
+import "nvramcontents.proto";
+import "softwareversions.proto";
+import "radarmodel.proto";
+
+message ConfigurationData {
+  optional RadarModel model = 1;
+  optional string macaddress = 2;
+  optional SoftwareVersions softwareversions = 3;
+  optional NVRamContents nvramcontents = 4;
+  optional float rangeresolutionhz = 5;
+  optional string moduleserialnumber = 6;
+  optional int32 autotunevalue = 7;
+  optional string radaruniqueid = 8;
+  optional int32 datawidth = 9;
+  optional float rangeresolutionmetres = 10;
+  optional RadarFeatureFlag radarfeatures = 11;
+  optional int32 staringmode = 12;
+  optional string onboardmacaddress = 13;
+}

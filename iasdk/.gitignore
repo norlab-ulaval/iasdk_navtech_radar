@@ -1,0 +1,7 @@
+Debug/
+Release/
+.vs/
+*.sdf
+*.opendb
+*.vcxproj.user
+_ReSharper.Caches

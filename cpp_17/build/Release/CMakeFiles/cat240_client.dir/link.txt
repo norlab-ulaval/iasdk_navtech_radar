@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cat240_client.dir/Cat240_client_main.cpp.o -o bin/cat240_client  utility/libutility.a protobuf/libprotobuf.a network/libnetworking.a navigation/libnavigation.a network/libnetworking.a navigation/libnavigation.a utility/libutility.a protobuf/libprotobuf.a /usr/lib/x86_64-linux-gnu/libprotobuf.a 

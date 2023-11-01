@@ -1,0 +1,27 @@
+\subsubsection usage Usage
+\verbatim
+<node name="dynamic_reconfigure_node" pkg="nav_ross" type="dynamic_reconfigure_node">
+  <param name="Phi" type="double" value="0.0" />
+  <param name="ThreeDScanApp" type="bool" value="False" />
+  <param name="maxangle" type="int" value="69" />
+  <param name="LaserScan2_Map" type="bool" value="False" />
+  <param name="radarimage" type="bool" value="False" />
+  <param name="radarimageprocessing" type="bool" value="False" />
+  <param name="threshold_value" type="int" value="62" />
+  <param name="pointcloud" type="bool" value="False" />
+  <param name="pcl_threshold_value" type="int" value="62" />
+  <param name="boundingboxes2" type="bool" value="False" />
+  <param name="MinAreaRect" type="bool" value="False" />
+  <param name="longtermaverage" type="bool" value="False" />
+  <param name="dilation_value" type="int" value="2" />
+  <param name="gaussian_value" type="int" value="5" />
+  <param name="adaptive_threshold" type="bool" value="False" />
+  <param name="level_above_average" type="int" value="52" />
+  <param name="adaptive_size" type="int" value="5" />
+  <param name="grid" type="bool" value="False" />
+  <param name="grid_stepSize" type="int" value="10" />
+  <param name="grid_opacity" type="double" value="0.5" />
+  <param name="colormap" type="int" value="10" />
+</node>
+\endverbatim
+

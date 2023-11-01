@@ -1,0 +1,11 @@
+/camera_publisher:
+  ros__parameters:
+    camera_url: rtsp://<username>:<password>@<ip_address><url>
+    qos_overrides:
+      /parameter_events:
+        publisher:
+          depth: 1000
+          durability: volatile
+          history: keep_last
+          reliability: reliable
+    use_sim_time: false

@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo "Running pre remove script"
+
+echo "Stopping gps_conversion_tool service"
+sudo systemctl stop gps_conversion_tool
+
+echo "Pre remove complete"
+
+#DEBHELPER#
+
+exit 0

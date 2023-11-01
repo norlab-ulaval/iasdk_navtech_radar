@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/protobuf.dir/configurationdata.pb.cc.o"
+  "CMakeFiles/protobuf.dir/configurationdata.pb.cc.o.d"
+  "CMakeFiles/protobuf.dir/discovery.pb.cc.o"
+  "CMakeFiles/protobuf.dir/discovery.pb.cc.o.d"
+  "CMakeFiles/protobuf.dir/health.pb.cc.o"
+  "CMakeFiles/protobuf.dir/health.pb.cc.o.d"
+  "CMakeFiles/protobuf.dir/healthinfo.pb.cc.o"
+  "CMakeFiles/protobuf.dir/healthinfo.pb.cc.o.d"
+  "CMakeFiles/protobuf.dir/networkinfo.pb.cc.o"
+  "CMakeFiles/protobuf.dir/networkinfo.pb.cc.o.d"
+  "CMakeFiles/protobuf.dir/nvramcontents.pb.cc.o"
+  "CMakeFiles/protobuf.dir/nvramcontents.pb.cc.o.d"
+  "CMakeFiles/protobuf.dir/radarmodel.pb.cc.o"
+  "CMakeFiles/protobuf.dir/radarmodel.pb.cc.o.d"
+  "CMakeFiles/protobuf.dir/softwareversions.pb.cc.o"
+  "CMakeFiles/protobuf.dir/softwareversions.pb.cc.o.d"
+  "configurationdata.pb.cc"
+  "configurationdata.pb.h"
+  "discovery.pb.cc"
+  "discovery.pb.h"
+  "health.pb.cc"
+  "health.pb.h"
+  "healthinfo.pb.cc"
+  "healthinfo.pb.h"
+  "libprotobuf.a"
+  "libprotobuf.pdb"
+  "networkinfo.pb.cc"
+  "networkinfo.pb.h"
+  "nvramcontents.pb.cc"
+  "nvramcontents.pb.h"
+  "radarmodel.pb.cc"
+  "radarmodel.pb.h"
+  "softwareversions.pb.cc"
+  "softwareversions.pb.h"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/protobuf.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

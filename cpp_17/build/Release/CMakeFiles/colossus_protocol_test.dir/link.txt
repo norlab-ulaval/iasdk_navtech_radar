@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/colossus_protocol_test.dir/Colossus_protocol_test.cpp.o -o bin/colossus_protocol_test  utility/libutility.a protobuf/libprotobuf.a network/libnetworking.a navigation/libnavigation.a network/libnetworking.a navigation/libnavigation.a utility/libutility.a protobuf/libprotobuf.a /usr/lib/x86_64-linux-gnu/libprotobuf.a 

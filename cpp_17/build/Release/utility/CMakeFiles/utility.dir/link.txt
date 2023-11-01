@@ -1,0 +1,2 @@
+/usr/bin/ar qc libutility.a CMakeFiles/utility.dir/Active.cpp.o CMakeFiles/utility.dir/Log.cpp.o CMakeFiles/utility.dir/Option_parser.cpp.o CMakeFiles/utility.dir/Signal_handler.cpp.o CMakeFiles/utility.dir/Time_utils.cpp.o CMakeFiles/utility.dir/Timer.cpp.o
+/usr/bin/ranlib libutility.a

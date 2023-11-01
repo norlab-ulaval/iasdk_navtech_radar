@@ -1,0 +1,12 @@
+/colossus_publisher:
+  ros__parameters:
+    qos_overrides:
+      /parameter_events:
+        publisher:
+          depth: 1000
+          durability: volatile
+          history: keep_last
+          reliability: reliable
+    radar_ip: 192.168.0.1
+    radar_port: 6317
+    use_sim_time: false

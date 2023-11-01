@@ -1,0 +1,21 @@
+syntax = "proto2";
+package Colossus.Protobuf;
+
+enum NetworkState
+{
+    NET_DOWN = 0;
+    NET_UP = 1;
+    NET_UNKNOWN = -1;
+}
+
+enum NetworkDuplex
+{
+  NET_HALF = 0;
+  NET_FULL = 1;
+}
+
+message NetworkInfo {
+    optional NetworkState state = 1;
+    optional NetworkDuplex duplex = 2;
+    optional uint32 speed = 3;
+}

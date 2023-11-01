@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "ms-vscode.cmake-tools",
+        "ms-vscode.cpptools-extension-pack",
+        "gruntfuggly.todo-tree",
+        "yzhang.markdown-all-in-one"
+    ]
+}

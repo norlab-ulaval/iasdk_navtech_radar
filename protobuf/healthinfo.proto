@@ -1,0 +1,21 @@
+syntax = "proto2";
+package Navtech.Core.Configuration.Protobuf;
+
+enum HealthStatus
+{
+  UNHEALTHY = 0;
+  WARNING = 1;
+  HEALTHY = 2;
+  UNKNOWN = 3;
+}
+
+message HealthInfo {
+  optional float minvalue = 1  [default = -10];
+  optional float maxvalue = 2  [default = 10];
+  optional float value = 3 [default = 0];
+  optional float delta = 4 [default = 0];
+  optional HealthStatus status = 5  [default = UNKNOWN];
+  optional int32 warnallowance = 6 [default = 12];
+  optional int32 alarmallowance = 7 [default = 20];
+  optional int32 clearallowance = 8 [default = 1];
+}

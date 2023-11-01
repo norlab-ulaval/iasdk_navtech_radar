@@ -1,0 +1,6 @@
+<launch>
+<node name="rqt_gui" pkg="rqt_gui" type="rqt_gui"/>
+<node name="rviz" pkg="rviz" type="rviz"/>
+<node name="Mobile_Platform" pkg="nav_ross" type="Mobile_Platform" output="screen" required="true" />
+
+</launch>

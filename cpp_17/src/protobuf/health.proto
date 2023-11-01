@@ -1,0 +1,32 @@
+syntax = "proto2";
+package Colossus.Protobuf;
+
+import "healthinfo.proto";
+import "networkinfo.proto";
+
+message Health {
+  optional HealthInfo dietemperature = 1;
+  optional HealthInfo soctemperature = 2;
+  optional HealthInfo vcotemperature = 3;
+  optional HealthInfo ambienttemperature = 4;
+  optional HealthInfo rotation = 5;
+  optional HealthInfo packetrate = 6;
+  optional HealthInfo rfhealthcheck = 7;
+  optional bool transmitting = 8;
+  optional uint32 expectedrotation = 9;
+  optional uint32 expectedpacketrate = 10;
+  optional string macaddress = 11;
+  optional int32 encodererrorcount = 12;
+  optional float systemuptime = 13;
+  optional HealthInfo motorcurrent = 14;
+  optional uint64 softwareuptime = 15;
+  optional uint64 totaluptime = 16;
+  optional NetworkInfo networkstate = 17;
+  optional int32 maxclientsallowed = 18;
+  repeated string ipclients = 19;
+  optional uint32 expectedrxpacketrate = 20;
+  optional uint32 uplinkerrors = 21;
+  optional uint32 downlinkerrors = 22;
+  optional uint32 uplinkmissed = 23;
+  optional uint32 downlinkmissed = 24;
+}

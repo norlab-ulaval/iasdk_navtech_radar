@@ -1,0 +1,11 @@
+<launch>
+<group ns="talker1">
+<param name="param" value="nav_on" type="str" />
+<param name="param2" value="fft_on" type="str" />
+<param name="param3" value="image_off" type="str" />
+<param name="CFAR" value="0" type="int" />
+<param name="PCL_RANGE" value="2856" type="int" />
+<node name="talker1" pkg="nav_ross" type="talker1" output="screen"  />
+<node name="Movement-Detector" pkg="nav_ross" type="Movement-Detector" output="screen"  />
+</group>
+</launch>

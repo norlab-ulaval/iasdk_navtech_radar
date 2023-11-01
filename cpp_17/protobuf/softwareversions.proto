@@ -1,0 +1,13 @@
+syntax = "proto2";
+package Navtech.Core.Configuration.Protobuf;
+
+message SoftwareVersions {
+  optional string os = 1;
+  optional string firmware = 2;
+  optional string ui = 3;
+  optional string onboardos = 4;
+  optional string onboardfirmware = 5;
+  optional string radarfpga = 6;
+  optional string analogueboardfpga = 7;
+  optional string digitalboardfpga = 8;
+}

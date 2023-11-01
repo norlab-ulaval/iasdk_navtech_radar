@@ -1,0 +1,13 @@
+#!/bin/sh
+
+echo "Running post install script"
+
+sudo chmod +x /usr/bin/run_gps_conversion_tool.sh
+
+sudo systemctl enable --now gps_conversion_tool
+
+echo "Post install complete"
+
+#DEBHELPER#
+
+exit 0

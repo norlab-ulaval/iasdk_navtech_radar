@@ -1,0 +1,20 @@
+/colossus_subscriber_point_cloud_publisher:
+  ros__parameters:
+    azimuth_offset: 0
+    combined_distance_offset: 0.0
+    combined_distance_scale_factor: 1.0
+    x_distance_offset: 0.0
+    y_distance_offset: 0.0
+    end_azimuth: 400
+    end_bin: 2856
+    power_threshold: 100
+    qos_overrides:
+      /parameter_events:
+        publisher:
+          depth: 1000
+          durability: volatile
+          history: keep_last
+          reliability: reliable
+    start_azimuth: 0
+    start_bin: 0
+    use_sim_time: true

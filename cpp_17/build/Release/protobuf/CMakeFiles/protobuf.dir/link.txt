@@ -1,0 +1,2 @@
+/usr/bin/ar qc libprotobuf.a CMakeFiles/protobuf.dir/configurationdata.pb.cc.o CMakeFiles/protobuf.dir/discovery.pb.cc.o CMakeFiles/protobuf.dir/health.pb.cc.o CMakeFiles/protobuf.dir/healthinfo.pb.cc.o CMakeFiles/protobuf.dir/networkinfo.pb.cc.o CMakeFiles/protobuf.dir/nvramcontents.pb.cc.o CMakeFiles/protobuf.dir/radarmodel.pb.cc.o CMakeFiles/protobuf.dir/softwareversions.pb.cc.o
+/usr/bin/ranlib libprotobuf.a

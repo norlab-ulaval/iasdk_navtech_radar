@@ -1,0 +1,35 @@
+syntax = "proto2";
+package Navtech.Core.Configuration.Protobuf;
+
+enum LensTypes
+{
+  FLAT = 0;
+  COSECANT = 1;
+  DISHFLAT = 2;
+  DISHCOSECANT = 3;
+}
+
+enum OrientationTypes
+{
+  NORMAL = 0;
+  HANGING = 1;
+}
+
+message NVRamContents {
+  optional int32 radar = 1;
+  optional int32 digitalboard = 2;
+  optional int32 frontend = 3;
+  optional int32 daughterboard = 4;
+  optional LensTypes lenstype = 5;
+  optional OrientationTypes orientation = 6;
+  optional int32 poefitted = 7;
+  optional int32 heaterfitted = 8;
+  optional float bossangle = 9;
+  optional int32 profileid = 10;
+  optional int32 builddate = 11;
+  optional int32 servicedate = 12;
+  optional string modelid = 13;
+	optional int32 accelx = 14;
+  optional int32 accely = 15;
+  optional int32 accelz = 16;
+}

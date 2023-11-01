@@ -1,0 +1,8 @@
+<launch>
+<param name="/talker1/param3" value="image_on" type="str" />
+<node name="talker1" pkg="nav_ross" type="talker1" output="log" respawn="true" />
+<node name="camTalk" pkg="nav_ross" type="camTalk.py" output="log" respawn="true"/>
+<node name="rqt_gui" pkg="rqt_gui" type="rqt_gui"/>
+<node pkg="rosbag" type="record" name="record" output="screen" 
+args="record -o /home/$(env USER)/iasdk/ros/ /camera_image_publisher /Navtech/Polar --split --size=1024"/>
+</launch>

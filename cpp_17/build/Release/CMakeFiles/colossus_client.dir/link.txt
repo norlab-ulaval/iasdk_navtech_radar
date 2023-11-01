@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/colossus_client.dir/Colossus_client_main.cpp.o -o bin/colossus_client  utility/libutility.a protobuf/libprotobuf.a network/libnetworking.a navigation/libnavigation.a network/libnetworking.a navigation/libnavigation.a utility/libutility.a protobuf/libprotobuf.a /usr/lib/x86_64-linux-gnu/libprotobuf.a 
